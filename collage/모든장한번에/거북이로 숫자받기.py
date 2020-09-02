@@ -1,0 +1,22 @@
+import turtle
+t=turtle.Turtle()
+t.shape("turtle")
+
+dex=float(turtle.textinput("","변의 길이를 입력하시오: "))
+
+t.left(90)
+t.forward(dex/2)
+t.write((dex),False)
+t.forward(dex/2)
+t.left(90)
+t.forward(dex/2)
+t.write((dex),False)
+t.forward(dex/2)
+t.left(90)
+t.forward(dex/2)
+t.write((dex),False)
+t.forward(dex/2)
+t.left(90)
+t.forward(dex/2)
+t.write((dex),False)
+t.forward(dex/2)
